@@ -10,68 +10,57 @@
         <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
         <link rel="stylesheet" href="assets/style2.css">
         <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap2.min.css">
         <link rel="stylesheet" href="assets/style.css">
     </head>
-
-<body>
-    <section class="section">
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
-            <div class="login-brand">
-              <a href="index.html"><img src="assets/img/logo-full.png" alt="logo" width="250"></a>
-            </div>
-
-            <div class="card card-primary">
-              <div class="card-header" style="font-size: 16px;"><h4>Login</h4></div>
-
-              <div class="card-body">
-                <form method="POST" action="#" class="needs-validation" novalidate="">
-                  <div class="form-group">
-                    <label for="email" style="font-size: 16px;">Email</label>
-                    <input style="font-size: 16px;" id="email" type="email" class="form-control" name="email" tabindex="1" required autofocus>
-                    <div class="invalid-feedback" style="font-size: 16px;"> 
-                      Please fill in your email
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <div class="d-block">
-                    	<label for="password" class="control-label" style="font-size: 16px;">Password</label>
-                    </div>
-                    <input id="password" type="password" class="form-control" name="password" tabindex="2" required>
-                    <div class="invalid-feedback">
-                      please fill in your password
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <div class="custom-control custom-checkbox">
-                      <input type="checkbox" name="remember" class="custom-control-input" tabindex="3" id="remember-me">
-                      <label class="custom-control-label" for="remember-me">Remember Me</label>
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <button onclick="location.href='user-dashboard.html'" type="button" class="btn btn-primary btn-lg btn-block" tabindex="4" style="font-size: 16px;">
-                      Login
-                    </button>
-                  </div>
-                </form>
-                
-              </div>
-            </div>
-            <div class="mt-5 text-muted text-center">
-              Don't have an account? <a href="signup.html">Create One</a>
-            </div>
-            <div class="simple-footer">
-              Copyright © 2022 Panen Sampah
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <body style="padding-top: 0px; background-color: #F6F8F7;">
+        <section class="section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
+                        <div class="login-brand">
+                            <a href="index.html">
+                                <img src="assets/img/logo-full.png" alt="logo" width="250">
+                            </a>
+                        </div>
+                        <div class="card card-primary">
+                            <div class="card-header" style="font-size: 16px;">
+                                <h4>Login</h4>
+                            </div>
+                            <div class="card-body">
+                                <form method="POST" action="#" class="needs-validation" novalidate="">
+                                    <div class="form-group">
+                                        <label for="email" style="font-size: 16px;">Email</label>
+                                        <input style="font-size: 16px;" id="email" type="email" class="form-control" name="email" tabindex="1" required autofocus>
+                                        <div class="invalid-feedback" style="font-size: 16px;"> Please fill in your email </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="d-block">
+                                            <label for="password" class="control-label" style="font-size: 16px;">Password</label>
+                                        </div>
+                                        <input id="password" type="password" class="form-control" name="password" tabindex="2" required>
+                                        <div class="invalid-feedback"> please fill in your password </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" name="remember" class="custom-control-input" tabindex="3" id="remember-me">
+                                            <label class="custom-control-label" for="remember-me">Remember Me</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button onclick="location.href='user-dashboard.html'" type="button" class="btn btn-primary btn-lg btn-block" tabindex="4" style="font-size: 16px;"> Login </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="mt-5 text-muted text-center"> Don't have an account? <a href="signup.html" style="color: #F0968D; text-decoration: underline;">Create One</a>
+                        </div>
+                        <div class="simple-footer"> Copyright © 2022 Panen Sampah </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
 </html>
