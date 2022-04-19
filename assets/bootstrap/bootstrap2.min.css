@@ -2858,18 +2858,18 @@ fieldset:disabled .btn {
     border-color: #5a7dae;
 }
 .btn-warning {
-    color: #000;
+    color: white;
     background-color: #fba93d;
     border-color: #fba93d;
 }
 .btn-warning:hover {
-    color: #000;
+    color: white;
     background-color: #ffca2c;
     border-color: #ffc720;
 }
 .btn-check:focus + .btn-warning,
 .btn-warning:focus {
-    color: #000;
+    color: white;
     background-color: #ffca2c;
     border-color: #ffc720;
     box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
